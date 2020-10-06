@@ -51,7 +51,7 @@ http://127.0.0.1:8000/conta/
 após o login será exibido um token este token deve ser utilizado para fazer as requisições dentro do header conforme abaixo
 
 ```json
-Autorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNjAwODYzODE2LCJlbWFpbCI6Im1jcmliZWlybzI3QG91dGxvb2suY29tIn0.hh1ngFpjWLTX-JtOJEv94UD4Ti1Z9Fcdu2jUiy6WxOQ
+Autorization: JWT {{ key gerada aqui }}
 ```
 
 ### Tipo de Viagens
